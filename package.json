@@ -1,0 +1,18 @@
+{
+  "name": "todo-bun",
+  "version": "1.0.50",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind": "bun tailwindcss -i ./src/styles/input.css -o ./styles/output.css --watch",
+    "dev": "bun run --watch src/index.ts"
+  },
+  "dependencies": {
+    "@elysiajs/html": "^0.7.0",
+    "elysia": "latest"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "tailwindcss": "^3.3.3"
+  },
+  "module": "src/index.js"
+}
