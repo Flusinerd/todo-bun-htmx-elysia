@@ -1,7 +1,7 @@
 import Header from "./header";
 
 type PageProps = {
-  children: JSX.Element;
+  children: JSX.Element | JSX.Element[];
   title?: string;
 };
 
