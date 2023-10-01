@@ -3,7 +3,6 @@ import { html } from '@elysiajs/html'
 import Index from "./pages";
 import { createTodo, getTodos, toggleTodoCompletedStatus } from "./api/todos";
 
-
 const app = new Elysia()
   .use(html())
   .get("/", ({ html }) => html(Index()))
@@ -29,3 +28,4 @@ const app = new Elysia()
 console.log(
   `🦊 HTML Todo is running at ${app.server?.hostname}:${app.server?.port}`
 );
+
