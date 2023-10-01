@@ -1,4 +1,4 @@
-# Elysia with Bun runtime
+# Bun, HTMX, Elysia TODO App
 
 ## Description
 This is a simple todo app built with HTMX and Elysia. It uses JSX as templating language and tailwind for css.
